@@ -1,0 +1,17 @@
+body{
+    background-color: cyan;
+}
+
+.warrior{
+    background-color: grey;
+    display:flex;
+    height: 20vh;
+}
+
+.mage {
+    background-color: blue;
+}
+
+.archer{
+    background-color: forestgreen;
+}
