@@ -13,7 +13,7 @@
         <h1>
             You have picked the mighty Warrior! 
         </h1>
-        
+        <h2>You have picked up a soul of petrification! Now slay your final foe!</h2>
     </div>
 
         <h2>  <%= choose %></h2>
@@ -22,14 +22,12 @@
         <div class="choices">
 
             <h3>
-                 A<a class="options" href="/failure"> <%= monsters[0]['monster'] %> </a> <br>
+                 A<a class="options" href="/victory"> <%= monsters[0]['monster'] %> </a> <br>
             </h3>
             <h3>
-                 B<a class="options" href="/failure"> <%= monsters[1]['monster'] %> </a> <br>
+         
             </h3>
-            <h3>
-                 C<a class="options" href="/warrior/second"> <%= monsters[2]['monster'] %> </a> <br> 
-            </h3>
+
         </div>
 
 </body>

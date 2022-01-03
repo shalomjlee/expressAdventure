@@ -5,7 +5,8 @@ body{
 .warrior{
     background-color: grey;
     display:flex;
-    height: 20vh;
+    height: 50vh;
+    justify-content:center;
 }
 
 .mage {
@@ -14,4 +15,9 @@ body{
 
 .archer{
     background-color: forestgreen;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
 }
