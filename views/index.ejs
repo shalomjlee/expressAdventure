@@ -9,11 +9,22 @@
 </head>
 <body>
 <h1>
-    Welcome Adventurer! Pick your Class
+    Welcome <%= punctuation %> <%= my_user %> 
+    Pick your Class
 </h1>
-<h3>
+<form action="/signup" method="POST">
+    <p><input type="text" name="username" placeholder="What is your username"></p>
+    <p><input type="text" name="password" placeholder="What is your password"></p>
+    <input type="submit" value="sign up!">
+</form>
 
-</h3>
+<% if (invalid_login) { %>
+
+    <div class="error">
+        Invalid Login
+    </div>
+<% } %>
+
 <a href="/warrior">Warrior</a>
 <!-- <a href="/archer">Archer</a>
 <a href="/mage">Mage</a> -->
